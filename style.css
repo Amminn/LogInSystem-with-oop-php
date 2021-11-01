@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-nav {
+    height: 7rem;
+    background-color: #313131;
+}
+
+.container {
+    width: 100%;
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0rem 2.5rem;
+}
+
+.top-nav .container {
+    height: 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-nav {
+    display: flex;
+    align-items: center;
+}
+
+.left-nav .logo a{
+    color: white;
+    font-size: 2.5rem;
+    margin-right: 2rem;
+    text-decoration: underline;
+}
+
+.left-nav .link {
+    color: white;
+    text-decoration: none;
+    transition: .3s ease;
+}
+
+.left-nav .link:hover {
+    color: rgb(166, 166, 255);
+}
+
+.left-nav ul {
+    list-style-type: none;
+    display: flex;
+    font-size: 1.4rem;
+}
+
+.left-nav ul li {
+    padding: 0rem .5rem;
+    text-transform: uppercase;
+}
+
+.right-nav a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    padding: .4rem .8rem;
+}
+
+.right-nav .sign-up {
+    background-color: rgb(42, 80, 138);
+    margin-right: .8rem;
+}
+
+.right-nav .login {
+    border: 1px solid rgb(42, 80, 138);
+}
