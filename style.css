@@ -94,14 +94,20 @@ html {
 }
 
 .header .sign-up-section {
-    background-color: red;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     padding: 0.5rem;
     width: 50%;
+    border-left: 4px solid blue 
 }
 
 .header .sign-up-section input{
-    width: 80%;
-    /* margin: 0.5rem 2rem; */
+    width: 100%;
+    padding: .5rem;
+    margin: .3rem 0;
+}
+
+.header .sign-up-section .btn{
+    width: 20%;
 }
