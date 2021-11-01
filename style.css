@@ -69,8 +69,9 @@ html {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     padding: .4rem .8rem;
+    border-radius: 0.3rem;
 }
 
 .right-nav .sign-up {
@@ -80,4 +81,27 @@ html {
 
 .right-nav .login {
     border: 1px solid rgb(42, 80, 138);
+}
+
+/* ------ || header section start here || ---------- */
+
+.header .container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    background-color: rgb(204, 237, 238);
+    align-items: center;
+}
+
+.header .sign-up-section {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    width: 50%;
+}
+
+.header .sign-up-section input{
+    width: 80%;
+    /* margin: 0.5rem 2rem; */
 }
