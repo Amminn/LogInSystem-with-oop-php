@@ -1,8 +1,8 @@
 <?php 
-
+// connection
 class Dbh {
 
-    private function connect() {
+    protected function connect() {
         try {
             $userName = "root";
             $password = "";

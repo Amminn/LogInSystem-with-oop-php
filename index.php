@@ -1,3 +1,6 @@
+<?php
+// include './include/signup.inc.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,12 +36,12 @@
             <div class="sign-up-section">
                 <h1>sign up</h1>
                 <p>To create account you have to sign in first</p>
-                <form action="">
+                <form action="./include/signup.inc.php" method="post">
                     <input name="uid" type="text" placeholder="Enter your name">
                     <input name="pwd" type="password" placeholder="Enter your Password">
-                    <input name="pwdrepeat" type="passowrd" placeholder="Check again Password">
+                    <input name="pwdrepeat" type="password" placeholder="Check again Password">
                     <input name="email" type="email" placeholder="Email">
-                    <input class="btn" class="btn-input" name="submit" type="button" value="Sign up">
+                    <button class="btn-input btn" name="submit"> Sign up</button>
                 </form>
             </div>
             <div class="login-section">
